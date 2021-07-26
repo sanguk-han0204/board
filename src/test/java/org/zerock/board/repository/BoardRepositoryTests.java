@@ -7,6 +7,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.zerock.board.dto.BoardDTO;
 import org.zerock.board.entity.Board;
 import org.zerock.board.entity.Member;
 
@@ -81,4 +82,6 @@ public class BoardRepositoryTests {
     Object[] arr = (Object[])result;
     System.out.println(Arrays.toString(arr));
 }
+
+
 }
