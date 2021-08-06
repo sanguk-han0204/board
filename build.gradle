@@ -15,8 +15,8 @@ configurations {
     compileOnly {
         extendsFrom annotationProcessor
     }
+    querydsl.extendsFrom compileClasspath
 
-    querydsl.extendsFrom compileClassPath
 }
 
 repositories {
